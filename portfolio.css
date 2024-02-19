@@ -19,7 +19,7 @@
 
 html{
     font-size: 80%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 body{
@@ -139,12 +139,12 @@ span{
     width: 22vw;
     border-radius: 50%;
     /* border-style: solid pink; */
-    box-shadow: 0 0 20 0px var(--main-color);
+    box-shadow: 0 0 20 500px var(--main-color);
     cursor: pointer;
     transition: 0.4s ease-in-out;
 }
 
-.home-img img:hover{
+.home-img:hover{
     box-shadow: 0 0 50px var(--main-color),
                 0 0 100px var(--main-color);
 }
